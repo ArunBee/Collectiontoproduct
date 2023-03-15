@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .image img {
+  width: 100%;
+} */
+/* Sourav CSs */
+.row-space{
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e5e2e2;
+  padding: 20px 0;
+}
+.image img {
+  width: 50%;
+  box-shadow: 5px 5px 10px grey;
+}
+h5 {
+  font-size: 1.25rem;
+  padding: 15px;
+  margin: auto;
+}
+.cart-heading{  
+  background: #e5e2e2;
+}

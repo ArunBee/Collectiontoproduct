@@ -1,0 +1,29 @@
+.awssld__bullets{
+    display: none !important;
+}
+.home-image img {
+    width: 100%;
+}
+.home-image {
+    position: relative;
+}
+.home-image p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    top: 50%;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.card-img img {
+    width: 100%;
+}
+.card { 
+    width: 24%;
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
